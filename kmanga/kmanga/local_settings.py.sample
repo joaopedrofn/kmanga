@@ -11,10 +11,10 @@ ALLOWED_HOSTS = [
     '.example.com.',  # Also allow FQDN and subdomains
 ]
 
-STATIC_ROOT = '/full/path/static/'
+STATIC_ROOT = 'static/'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/full/path/media/'
+MEDIA_ROOT = 'media/'
 
 DATABASES = {
     'default': {
